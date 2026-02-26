@@ -1,9 +1,9 @@
-import Image from "next/image";
+import PortfolioContent from "@/components/PortfolioContent";
 
-export default function Home() {
+export default async function Home() {
   return (
-    <div className="">
-      <h1>Hello world</h1>
-         </div>
+    <main className="min-h-screen">
+      <PortfolioContent />
+    </main>
   );
 }
